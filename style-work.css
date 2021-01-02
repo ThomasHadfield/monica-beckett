@@ -204,7 +204,11 @@ footer .logo{
         letter-spacing: -0.25rem;
     }
 
-    /* HEADER */    
+    /* HEADER */
+    header{
+        margin-bottom: 0px;
+    }
+    
     .top-nav{
         margin-top: 30px;
         display: flex;

@@ -120,6 +120,10 @@ main{
     margin-bottom: 50px;
 }
 
+.project-intro a{
+    color: #ec008c;
+}
+
 .project-intro h2{
     margin-bottom: 50px;
 }

@@ -119,6 +119,14 @@ main img{
     color: #fff;
 }
 
+.content-link{
+    padding-right: 10px;
+}
+
+.content-link:hover{
+    color: #ec008c;
+}
+
 
 
 /* FOOTER */
