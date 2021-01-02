@@ -206,7 +206,7 @@ footer .logo{
 
     /* HEADER */
     header{
-        margin-bottom: 0px;
+        margin-bottom: 80px;
     }
     
     .top-nav{
@@ -250,6 +250,10 @@ footer .logo{
 
 
     /* HEADER */
+    header{
+        margin-bottom: 0px;
+    }
+
     .top-nav{
         margin-top: 45px;
     }
