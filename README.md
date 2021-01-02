@@ -7,3 +7,4 @@ Uploaded Monica's site files
 # Jan 2, 2021
 - Uploaded updated site files
 - Added files to netlify
+- Added XML file
