@@ -8,3 +8,6 @@ Uploaded Monica's site files
 - Uploaded updated site files
 - Added files to netlify
 - Added XML file
+
+# Jan 3, 2021
+- Added Google search console file
