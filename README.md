@@ -7,7 +7,10 @@ Uploaded Monica's site files
 # Jan 2, 2021
 - Uploaded updated site files
 - Added files to netlify
-- Added XML file
+- Added .xml sitemap file
 
 # Jan 3, 2021
 - Added Google search console file
+
+#Jan 9, 2021
+- Adding updated images in webp format
