@@ -12,5 +12,5 @@ Uploaded Monica's site files
 # Jan 3, 2021
 - Added Google search console file
 
-#Jan 9, 2021
+# Jan 9, 2021
 - Adding updated images in webp format
