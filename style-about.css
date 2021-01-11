@@ -107,7 +107,7 @@ main{
 }
 
 main img{
-    width: 70%;
+    width: 90%;
     margin-bottom: 40px;
 }
 
@@ -195,6 +195,10 @@ footer .logo{
         margin: 90px 0 90px 0;
     }
 
+    main img{
+        width: 60%;
+    }
+
 }
 
 
@@ -225,8 +229,8 @@ footer .logo{
     }
 
     main img{
-        width: 35%;
-        margin-right: 150px;
+        width: 80%;
+        margin-bottom: 0px;
         transition: all 0.8s;
     }
 
