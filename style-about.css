@@ -55,6 +55,14 @@ html {
     font-variation-settings: "wdth" 100, "wght" 600; 
 }
 
+h2{
+    font-family: "MarkPro-Book";
+    font-size: 3rem;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0;
+}
+
 
 
 /* GLOBAL */
@@ -107,11 +115,27 @@ main{
 }
 
 main img{
-    width: 90%;
+    width: 100%;
     margin-bottom: 40px;
 }
 
-.content,
+.about-section,
+.accomplish-section{
+    margin: 0 0 75px 0;
+}
+
+.content .hr-rule{
+    margin: 0 0 10px 0;
+    width:100%;
+    height: 1px;
+    background: #fff;
+}
+
+.content h2{
+    margin-bottom: 20px;
+}
+
+.content p,
 .content-link{
     font-family: "MarkPro-Book";
     font-size: 1.8rem;
