@@ -14,3 +14,6 @@
 
 # Jan 9, 2021
 - Adding updated images in webp format
+
+# Feb 27, 2021
+- Updating about page design
