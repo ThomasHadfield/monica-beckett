@@ -17,3 +17,7 @@
 
 # Feb 27, 2021
 - Updating about page design
+
+# April 4, 2021
+- Added 3 new projects to the website
+
