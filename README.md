@@ -21,3 +21,7 @@
 # April 4, 2021
 - Added 3 new projects to the website
 
+# April 25, 2021
+- Added construction drawings project
+- Added model making project
+
