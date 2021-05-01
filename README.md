@@ -26,3 +26,7 @@
 - Added model making project
 - added updated sitemap
 
+# May 1, 2021
+- added proxim project
+- updated about page bio
+- fixed project page list style css
