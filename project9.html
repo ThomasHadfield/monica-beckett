@@ -22,139 +22,145 @@
     <title>Monica Beckett – Proxim</title>
     <link rel="stylesheet" href="style-project.css">
     <link rel="icon" href="./images/favicon.png">
+
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script async src="script.js"></script>
 </head>
 
 <body>
 
-<div class="wrapper">
+    <!-- Page Loader Overlay -->
+    <div class="loader"></div>
 
-   <!-- HEADER -->
-   <header>
-       
-       <!-- LOGO -->
-        <a href="index.html" class="logo">monica</a>
+    <div class="wrapper">
 
-        <!-- TOP NAV -->
-        <nav class="top-nav">
-            <p>
-                <a href="work.html" class="top-nav-link">work</a>
-            </p>    
-            <p>
-                <a href="about.html" class="top-nav-link">about</a>
-            </p>
-        </nav>
-    </header>
-
-
-    <!-- MAIN -->
-    <main>
-
-        <section class="project-intro">
-            <h2>Proxim</h2>
-            <p>As the understanding of the connection between nature and wellbeing becomes more widely understood, the ways in which nature can be brought into the interior through less obvious techniques becomes more critical. Using bioplastic casts of amethyst crystals, the oppositional relationship between work and nature is disrupted. A transient space is created, which produces connections to its surroundings through either physical openings or varying transparencies of materiality. 
-            <br>
-            <br>
-            The hexagonal crystal system of the amethyst is utilized throughout the space, as surrounding partitions follow the same tilted angle of the hexagonal bioplastic form. A gradient of visibility is used in order to create a more obvious transition between interior and exterior, as the transparencies of walls act in opposition to the density which surrounds the passageway.
-            </p>
-        </section>
-
-        <section class="project-images">
-            <picture>
-                <source srcset="images/projects/proxim/webp/Website_Image_Template_0000_render.webp" type="image/webp">
-                <source srcset="images/projects/proxim/Website_Image_Template_0000_render.jpg" type="image/jpeg">
-                <img src="images/projects/proxim/Website_Image_Template_0000_render.jpg" alt="proxim render">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/proxim/webp/Website_Image_Template_0001_plan.webp" type="image/webp">
-                <source srcset="images/projects/proxim/Website_Image_Template_0001_plan.jpg" type="image/jpeg">
-                <img src="images/projects/proxim/Website_Image_Template_0001_plan.jpg" alt="proxim plan">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/proxim/webp/Website_Image_Template_0002_section.webp" type="image/webp">
-                <source srcset="images/projects/proxim/Website_Image_Template_0002_section.jpg" type="image/jpeg">
-                <img src="images/projects/proxim/Website_Image_Template_0002_section.jpg" alt="proxim plan">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/proxim/webp/Website_Image_Template_0003_elevation.webp" type="image/webp">
-                <source srcset="images/projects/proxim/Website_Image_Template_0003_elevation.jpg" type="image/jpeg">
-                <img src="images/projects/proxim/Website_Image_Template_0003_elevation.jpg" alt="proxim plan">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/proxim/webp/Website_Image_Template_0004_render2.webp" type="image/webp">
-                <source srcset="images/projects/proxim/Website_Image_Template_0004_render2.jpg" type="image/jpeg">
-                <img src="images/projects/proxim/Website_Image_Template_0004_render2.jpg" alt="proxim plan">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/proxim/webp/Website_Image_Template_0005_detail.webp" type="image/webp">
-                <source srcset="images/projects/proxim/Website_Image_Template_0005_detail.jpg" type="image/jpeg">
-                <img src="images/projects/proxim/Website_Image_Template_0005_detail.jpg" alt="proxim plan">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/proxim/webp/Website_Image_Template_0006_plan-2.webp" type="image/webp">
-                <source srcset="images/projects/proxim/Website_Image_Template_0006_plan-2.jpg" type="image/jpeg">
-                <img src="images/projects/proxim/Website_Image_Template_0006_plan-2.jpg" alt="proxim plan">
-            </picture>
-
-            <img src="images/projects/proxim/bio-plastic-process.gif" alt="bio plastic building process">
-
-            <picture>
-                <source srcset="images/projects/proxim/webp/Website_Image_Template_0007_Model-1.webp" type="image/webp">
-                <source srcset="images/projects/proxim/Website_Image_Template_0007_Model-1.jpg" type="image/jpeg">
-                <img src="images/projects/proxim/Website_Image_Template_0007_Model-1.jpg" alt="proxim plan">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/proxim/webp/Website_Image_Template_0008_Model-2.webp" type="image/webp">
-                <source srcset="images/projects/proxim/Website_Image_Template_0008_Model-2.jpg" type="image/jpeg">
-                <img src="images/projects/proxim/Website_Image_Template_0008_Model-2.jpg" alt="proxim plan">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/proxim/webp/Website_Image_Template_0009_Model-3.webp" type="image/webp">
-                <source srcset="images/projects/proxim/Website_Image_Template_0009_Model-3.jpg" type="image/jpeg">
-                <img src="images/projects/proxim/Website_Image_Template_0009_Model-3.jpg" alt="proxim plan">
-            </picture>
-
-            <iframe class="vr-frame" style="width:100%;height:900px;" src="https://vr.yulio.com/embedded/vres/sYxwsO7R4Q/fprs/LYdJi3YKQf/?type=embed" scrolling="no" frameborder="0" allowfullscreen></iframe>
-
-
-
-
-        </section>
-
-    </main>
-
-
-    <!-- FOOTER -->
-    <footer>
-        <p class="logo">beckett</p>
+    <!-- HEADER -->
+    <header>
         
-        <!-- BOTTOM NAV -->
-        <nav class="bottom-nav">
+        <!-- LOGO -->
+            <a href="index.html" class="logo">monica</a>
 
-            <div class="copyright">
-                <p>© Monica Beckett <script>document.write(new Date().getFullYear())</script></p>
-            </div>
-            
-            <ul class="bottom-nav-link">
-                <li>
-                    <a href="mailto:monicajanebeckett@gmail.com" target="_blank" rel="noopener noreferrer">email</a>
-                </li>
-                <li>
-                    <a href="https://instagram.com/monicajanebeckett/" target="_blank" rel="noopener noreferrer">instagram</a>
-                </li>
-            </ul>
-            
-        </nav>
-    </footer>
+            <!-- TOP NAV -->
+            <nav class="top-nav">
+                <p>
+                    <a href="work.html" class="top-nav-link">work</a>
+                </p>    
+                <p>
+                    <a href="about.html" class="top-nav-link">about</a>
+                </p>
+            </nav>
+        </header>
 
-</div>
-    
+
+        <!-- MAIN -->
+        <main>
+
+            <section class="project-intro">
+                <h2>Proxim</h2>
+                <p>As the understanding of the connection between nature and wellbeing becomes more widely understood, the ways in which nature can be brought into the interior through less obvious techniques becomes more critical. Using bioplastic casts of amethyst crystals, the oppositional relationship between work and nature is disrupted. A transient space is created, which produces connections to its surroundings through either physical openings or varying transparencies of materiality. 
+                <br>
+                <br>
+                The hexagonal crystal system of the amethyst is utilized throughout the space, as surrounding partitions follow the same tilted angle of the hexagonal bioplastic form. A gradient of visibility is used in order to create a more obvious transition between interior and exterior, as the transparencies of walls act in opposition to the density which surrounds the passageway.
+                </p>
+            </section>
+
+            <section class="project-images">
+                <picture>
+                    <source srcset="images/projects/proxim/webp/Website_Image_Template_0000_render.webp" type="image/webp">
+                    <source srcset="images/projects/proxim/Website_Image_Template_0000_render.jpg" type="image/jpeg">
+                    <img src="images/projects/proxim/Website_Image_Template_0000_render.jpg" alt="proxim render">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/proxim/webp/Website_Image_Template_0001_plan.webp" type="image/webp">
+                    <source srcset="images/projects/proxim/Website_Image_Template_0001_plan.jpg" type="image/jpeg">
+                    <img src="images/projects/proxim/Website_Image_Template_0001_plan.jpg" alt="proxim plan">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/proxim/webp/Website_Image_Template_0002_section.webp" type="image/webp">
+                    <source srcset="images/projects/proxim/Website_Image_Template_0002_section.jpg" type="image/jpeg">
+                    <img src="images/projects/proxim/Website_Image_Template_0002_section.jpg" alt="proxim plan">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/proxim/webp/Website_Image_Template_0003_elevation.webp" type="image/webp">
+                    <source srcset="images/projects/proxim/Website_Image_Template_0003_elevation.jpg" type="image/jpeg">
+                    <img src="images/projects/proxim/Website_Image_Template_0003_elevation.jpg" alt="proxim plan">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/proxim/webp/Website_Image_Template_0004_render2.webp" type="image/webp">
+                    <source srcset="images/projects/proxim/Website_Image_Template_0004_render2.jpg" type="image/jpeg">
+                    <img src="images/projects/proxim/Website_Image_Template_0004_render2.jpg" alt="proxim plan">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/proxim/webp/Website_Image_Template_0005_detail.webp" type="image/webp">
+                    <source srcset="images/projects/proxim/Website_Image_Template_0005_detail.jpg" type="image/jpeg">
+                    <img src="images/projects/proxim/Website_Image_Template_0005_detail.jpg" alt="proxim plan">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/proxim/webp/Website_Image_Template_0006_plan-2.webp" type="image/webp">
+                    <source srcset="images/projects/proxim/Website_Image_Template_0006_plan-2.jpg" type="image/jpeg">
+                    <img src="images/projects/proxim/Website_Image_Template_0006_plan-2.jpg" alt="proxim plan">
+                </picture>
+
+                <img src="images/projects/proxim/bio-plastic-process.gif" alt="bio plastic building process">
+
+                <picture>
+                    <source srcset="images/projects/proxim/webp/Website_Image_Template_0007_Model-1.webp" type="image/webp">
+                    <source srcset="images/projects/proxim/Website_Image_Template_0007_Model-1.jpg" type="image/jpeg">
+                    <img src="images/projects/proxim/Website_Image_Template_0007_Model-1.jpg" alt="proxim plan">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/proxim/webp/Website_Image_Template_0008_Model-2.webp" type="image/webp">
+                    <source srcset="images/projects/proxim/Website_Image_Template_0008_Model-2.jpg" type="image/jpeg">
+                    <img src="images/projects/proxim/Website_Image_Template_0008_Model-2.jpg" alt="proxim plan">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/proxim/webp/Website_Image_Template_0009_Model-3.webp" type="image/webp">
+                    <source srcset="images/projects/proxim/Website_Image_Template_0009_Model-3.jpg" type="image/jpeg">
+                    <img src="images/projects/proxim/Website_Image_Template_0009_Model-3.jpg" alt="proxim plan">
+                </picture>
+
+                <iframe class="vr-frame" style="width:100%;height:900px;" src="https://vr.yulio.com/embedded/vres/sYxwsO7R4Q/fprs/LYdJi3YKQf/?type=embed" scrolling="no" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+            </section>
+
+        </main>
+
+
+        <!-- FOOTER -->
+        <footer>
+            <p class="logo">beckett</p>
+            
+            <!-- BOTTOM NAV -->
+            <nav class="bottom-nav">
+
+                <div class="copyright">
+                    <p>© Monica Beckett <script>document.write(new Date().getFullYear())</script></p>
+                </div>
+                
+                <ul class="bottom-nav-link">
+                    <li>
+                        <a href="mailto:monicajanebeckett@gmail.com" target="_blank" rel="noopener noreferrer">email</a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/monicajanebeckett/" target="_blank" rel="noopener noreferrer">instagram</a>
+                    </li>
+                </ul>
+                
+            </nav>
+        </footer>
+
+    </div>
+        
 </body>
 </html>
