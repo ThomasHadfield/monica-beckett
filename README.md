@@ -30,3 +30,8 @@
 - added proxim project
 - updated about page bio
 - fixed project page list style css
+
+# May 12, 2021
+- Added new about image
+- added page fade in loader
+
