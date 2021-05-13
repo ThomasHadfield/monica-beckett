@@ -22,120 +22,126 @@
     <title>Monica Beckett – Open/Closed: Rooms/Corridors</title>
     <link rel="stylesheet" href="style-project.css">
     <link rel="icon" href="./images/favicon.png">
+
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script async src="script.js"></script>
 </head>
 
 <body>
 
-<div class="wrapper">
+    <!-- Page Loader Overlay -->
+    <div class="loader"></div>
 
-   <!-- HEADER -->
-   <header>
-       
-       <!-- LOGO -->
-        <a href="index.html" class="logo">monica</a>
+    <div class="wrapper">
 
-        <!-- TOP NAV -->
-        <nav class="top-nav">
-            <p>
-                <a href="work.html" class="top-nav-link">work</a>
-            </p>    
-            <p>
-                <a href="about.html" class="top-nav-link">about</a>
-            </p>
-        </nav>
-    </header>
-
-
-    <!-- MAIN -->
-    <main>
-
-        <section class="project-intro">
-            <h2>Open/Closed: Rooms/Corridors</h2>
-            <p>A series of corridor-ish rooms and room-ish corridors.
-            <br>
-            The 2019 Design Milk Stand, reimagines corridors and booths by combining walls, openings, and paths to produce a series of interconnected spaces. This project was in collaboration with Design Milk and Ryerson School of Interior Design, for the 2019 Toronto Interior Design Show.
-            <br>
-            <br>
-            Completed as part of a team with Ryerson University.</p>
-        </section>
-
-        <section class="project-images">
-            <picture>
-                <source srcset="images/projects/open-closed/webp/open-closed_0000_1.webp" type="image/webp">
-                <source srcset="images/projects/open-closed/open-closed_0000_1.jpg" type="image/jpeg">
-                <img src="images/projects/open-closed/open-closed_0000_1.jpg" alt="main pavillion photograph">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/open-closed/webp/open-closed_0005_6.webp" type="image/webp">
-                <source srcset="images/projects/open-closed/open-closed_0005_6.jpg" type="image/jpeg">
-                <img src="images/projects/open-closed/open-closed_0005_6.jpg" alt="site context diagram">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/open-closed/webp/open-closed_0001_2.webp" type="image/webp">
-                <source srcset="images/projects/open-closed/open-closed_0001_2.jpg" type="image/jpeg">
-                <img src="images/projects/open-closed/open-closed_0001_2.jpg" alt="photgraph showing circulation through individual areas">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/open-closed/webp/open-closed_0003_4.webp" type="image/webp">
-                <source srcset="images/projects/open-closed/open-closed_0003_4.jpg" type="image/jpeg">
-                <img src="images/projects/open-closed/open-closed_0003_4.jpg" alt="walls and openings 3D development">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/open-closed/webp/open-closed_0004_5.webp" type="image/webp">
-                <source srcset="images/projects/open-closed/open-closed_0004_5.jpg" type="image/jpeg">
-                <img src="images/projects/open-closed/open-closed_0004_5.jpg" alt="circulation diagram">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/open-closed/webp/open-closed_0002_3.webp" type="image/webp">
-                <source srcset="images/projects/open-closed/open-closed_0002_3.jpg" type="image/jpeg">
-                <img src="images/projects/open-closed/open-closed_0002_3.jpg" alt="photos showing length of pavillion">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/open-closed/webp/open-closed_0006_7.webp" type="image/webp">
-                <source srcset="images/projects/open-closed/open-closed_0006_7.jpg" type="image/jpeg">
-                    <img src="images/projects/open-closed/open-closed_0006_7.jpg" alt="photo of final space during the interior design show">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/open-closed/webp/open-closed_0007_8.webp" type="image/webp">
-                <source srcset="images/projects/open-closed/open-closed_0007_8.jpg" type="image/jpeg">
-                    <img src="images/projects/open-closed/open-closed_0007_8.jpg" alt="photo of final space during the interior design show">
-            </picture>
-        </section>
-
-    </main>
-
-
-    <!-- FOOTER -->
-    <footer>
-        <p class="logo">beckett</p>
+    <!-- HEADER -->
+    <header>
         
-        <!-- BOTTOM NAV -->
-        <nav class="bottom-nav">
+        <!-- LOGO -->
+            <a href="index.html" class="logo">monica</a>
 
-            <div class="copyright">
-                <p>© Monica Beckett <script>document.write(new Date().getFullYear())</script></p>
-            </div>
-            
-            <ul class="bottom-nav-link">
-                <li>
-                    <a href="mailto:monicajanebeckett@gmail.com" target="_blank" rel="noopener noreferrer">email</a>
-                </li>
-                <li>
-                    <a href="https://instagram.com/monicajanebeckett/" target="_blank" rel="noopener noreferrer">instagram</a>
-                </li>
-            </ul>
-            
-        </nav>
-    </footer>
+            <!-- TOP NAV -->
+            <nav class="top-nav">
+                <p>
+                    <a href="work.html" class="top-nav-link">work</a>
+                </p>    
+                <p>
+                    <a href="about.html" class="top-nav-link">about</a>
+                </p>
+            </nav>
+        </header>
 
-</div>
+
+        <!-- MAIN -->
+        <main>
+
+            <section class="project-intro">
+                <h2>Open/Closed: Rooms/Corridors</h2>
+                <p>A series of corridor-ish rooms and room-ish corridors.
+                <br>
+                The 2019 Design Milk Stand, reimagines corridors and booths by combining walls, openings, and paths to produce a series of interconnected spaces. This project was in collaboration with Design Milk and Ryerson School of Interior Design, for the 2019 Toronto Interior Design Show.
+                <br>
+                <br>
+                Completed as part of a team with Ryerson University.</p>
+            </section>
+
+            <section class="project-images">
+                <picture>
+                    <source srcset="images/projects/open-closed/webp/open-closed_0000_1.webp" type="image/webp">
+                    <source srcset="images/projects/open-closed/open-closed_0000_1.jpg" type="image/jpeg">
+                    <img src="images/projects/open-closed/open-closed_0000_1.jpg" alt="main pavillion photograph">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/open-closed/webp/open-closed_0005_6.webp" type="image/webp">
+                    <source srcset="images/projects/open-closed/open-closed_0005_6.jpg" type="image/jpeg">
+                    <img src="images/projects/open-closed/open-closed_0005_6.jpg" alt="site context diagram">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/open-closed/webp/open-closed_0001_2.webp" type="image/webp">
+                    <source srcset="images/projects/open-closed/open-closed_0001_2.jpg" type="image/jpeg">
+                    <img src="images/projects/open-closed/open-closed_0001_2.jpg" alt="photgraph showing circulation through individual areas">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/open-closed/webp/open-closed_0003_4.webp" type="image/webp">
+                    <source srcset="images/projects/open-closed/open-closed_0003_4.jpg" type="image/jpeg">
+                    <img src="images/projects/open-closed/open-closed_0003_4.jpg" alt="walls and openings 3D development">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/open-closed/webp/open-closed_0004_5.webp" type="image/webp">
+                    <source srcset="images/projects/open-closed/open-closed_0004_5.jpg" type="image/jpeg">
+                    <img src="images/projects/open-closed/open-closed_0004_5.jpg" alt="circulation diagram">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/open-closed/webp/open-closed_0002_3.webp" type="image/webp">
+                    <source srcset="images/projects/open-closed/open-closed_0002_3.jpg" type="image/jpeg">
+                    <img src="images/projects/open-closed/open-closed_0002_3.jpg" alt="photos showing length of pavillion">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/open-closed/webp/open-closed_0006_7.webp" type="image/webp">
+                    <source srcset="images/projects/open-closed/open-closed_0006_7.jpg" type="image/jpeg">
+                        <img src="images/projects/open-closed/open-closed_0006_7.jpg" alt="photo of final space during the interior design show">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/open-closed/webp/open-closed_0007_8.webp" type="image/webp">
+                    <source srcset="images/projects/open-closed/open-closed_0007_8.jpg" type="image/jpeg">
+                        <img src="images/projects/open-closed/open-closed_0007_8.jpg" alt="photo of final space during the interior design show">
+                </picture>
+            </section>
+
+        </main>
+
+
+        <!-- FOOTER -->
+        <footer>
+            <p class="logo">beckett</p>
+            
+            <!-- BOTTOM NAV -->
+            <nav class="bottom-nav">
+
+                <div class="copyright">
+                    <p>© Monica Beckett <script>document.write(new Date().getFullYear())</script></p>
+                </div>
+                
+                <ul class="bottom-nav-link">
+                    <li>
+                        <a href="mailto:monicajanebeckett@gmail.com" target="_blank" rel="noopener noreferrer">email</a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/monicajanebeckett/" target="_blank" rel="noopener noreferrer">instagram</a>
+                    </li>
+                </ul>
+                
+            </nav>
+        </footer>
+
+    </div>
     
 </body>
 </html>

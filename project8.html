@@ -22,152 +22,158 @@
     <title>Monica Beckett – Construction Drawings</title>
     <link rel="stylesheet" href="style-project.css">
     <link rel="icon" href="./images/favicon.png">
+
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script async src="script.js"></script>
 </head>
 
 <body>
 
-<div class="wrapper">
+    <!-- Page Loader Overlay -->
+    <div class="loader"></div>
 
-   <!-- HEADER -->
-   <header>
-       
-       <!-- LOGO -->
-        <a href="index.html" class="logo">monica</a>
+    <div class="wrapper">
 
-        <!-- TOP NAV -->
-        <nav class="top-nav">
-            <p>
-                <a href="work.html" class="top-nav-link">work</a>
-            </p>    
-            <p>
-                <a href="about.html" class="top-nav-link">about</a>
-            </p>
-        </nav>
-    </header>
-
-
-    <!-- MAIN -->
-    <main>
-
-        <section class="project-intro">
-            <h2>Construction Drawings</h2>
-            <p>Complete construction drawing set for the redesign of Toronto-based arts organization, Akin Collective.</p>
-        </section>
-
-        <section class="project-images">
-            <picture>
-                <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0000_1.webp" type="image/webp">
-                <source srcset="images/projects/construction-drawings/Website_Image_Template_0000_1.jpg" type="image/jpeg">
-                <img src="images/projects/construction-drawings/Website_Image_Template_0000_1.jpg" alt="construction drawing">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0001_2.webp" type="image/webp">
-                <source srcset="images/projects/construction-drawings/Website_Image_Template_0001_2.jpg" type="image/jpeg">
-                <img src="images/projects/construction-drawings/Website_Image_Template_0001_2.jpg" alt="construction drawing">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0002_3.webp" type="image/webp">
-                <source srcset="images/projects/construction-drawings/Website_Image_Template_0002_3.jpg" type="image/jpeg">
-                <img src="images/projects/construction-drawings/Website_Image_Template_0002_3.jpg" alt="construction drawing">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0003_4.webp" type="image/webp">
-                <source srcset="images/projects/construction-drawings/Website_Image_Template_0003_4.jpg" type="image/jpeg">
-                <img src="images/projects/construction-drawings/Website_Image_Template_0003_4.jpg" alt="construction drawing">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0004_5.webp" type="image/webp">
-                <source srcset="images/projects/construction-drawings/Website_Image_Template_0004_5.jpg" type="image/jpeg">
-                <img src="images/projects/construction-drawings/Website_Image_Template_0004_5.jpg" alt="construction drawing">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0005_6.webp" type="image/webp">
-                <source srcset="images/projects/construction-drawings/Website_Image_Template_0005_6.jpg" type="image/jpeg">
-                <img src="images/projects/construction-drawings/Website_Image_Template_0005_6.jpg" alt="construction drawing">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0006_7.webp" type="image/webp">
-                <source srcset="images/projects/construction-drawings/Website_Image_Template_0006_7.jpg" type="image/jpeg">
-                <img src="images/projects/construction-drawings/Website_Image_Template_0006_7.jpg" alt="construction drawing">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0007_8.webp" type="image/webp">
-                <source srcset="images/projects/construction-drawings/Website_Image_Template_0007_8.jpg" type="image/jpeg">
-                <img src="images/projects/construction-drawings/Website_Image_Template_0007_8.jpg" alt="construction drawing">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0008_9.webp" type="image/webp">
-                <source srcset="images/projects/construction-drawings/Website_Image_Template_0008_9.jpg" type="image/jpeg">
-                <img src="images/projects/construction-drawings/Website_Image_Template_0008_9.jpg" alt="construction drawing">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0009_10.webp" type="image/webp">
-                <source srcset="images/projects/construction-drawings/Website_Image_Template_0009_10.jpg" type="image/jpeg">
-                <img src="images/projects/construction-drawings/Website_Image_Template_0009_10.jpg" alt="construction drawing">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0010_11.webp" type="image/webp">
-                <source srcset="images/projects/construction-drawings/Website_Image_Template_0010_11.jpg" type="image/jpeg">
-                <img src="images/projects/construction-drawings/Website_Image_Template_0010_11.jpg" alt="construction drawing">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0011_12.webp" type="image/webp">
-                <source srcset="images/projects/construction-drawings/Website_Image_Template_0011_12.jpg" type="image/jpeg">
-                <img src="images/projects/construction-drawings/Website_Image_Template_0011_12.jpg" alt="construction drawing">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0012_13.webp" type="image/webp">
-                <source srcset="images/projects/construction-drawings/Website_Image_Template_0012_13.jpg" type="image/jpeg">
-                <img src="images/projects/construction-drawings/Website_Image_Template_0012_13.jpg" alt="construction drawing">
-            </picture>
-
-            <picture>
-                <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0013_14.webp" type="image/webp">
-                <source srcset="images/projects/construction-drawings/Website_Image_Template_0013_14.jpg" type="image/jpeg">
-                <img src="images/projects/construction-drawings/Website_Image_Template_0013_14.jpg" alt="construction drawing">
-            </picture>
-
-        </section>
-
-    </main>
-
-
-    <!-- FOOTER -->
-    <footer>
-        <p class="logo">beckett</p>
+    <!-- HEADER -->
+    <header>
         
-        <!-- BOTTOM NAV -->
-        <nav class="bottom-nav">
+        <!-- LOGO -->
+            <a href="index.html" class="logo">monica</a>
 
-            <div class="copyright">
-                <p>© Monica Beckett <script>document.write(new Date().getFullYear())</script></p>
-            </div>
-            
-            <ul class="bottom-nav-link">
-                <li>
-                    <a href="mailto:monicajanebeckett@gmail.com" target="_blank" rel="noopener noreferrer">email</a>
-                </li>
-                <li>
-                    <a href="https://instagram.com/monicajanebeckett/" target="_blank" rel="noopener noreferrer">instagram</a>
-                </li>
-            </ul>
-            
-        </nav>
-    </footer>
+            <!-- TOP NAV -->
+            <nav class="top-nav">
+                <p>
+                    <a href="work.html" class="top-nav-link">work</a>
+                </p>    
+                <p>
+                    <a href="about.html" class="top-nav-link">about</a>
+                </p>
+            </nav>
+        </header>
 
-</div>
+
+        <!-- MAIN -->
+        <main>
+
+            <section class="project-intro">
+                <h2>Construction Drawings</h2>
+                <p>Complete construction drawing set for the redesign of Toronto-based arts organization, Akin Collective.</p>
+            </section>
+
+            <section class="project-images">
+                <picture>
+                    <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0000_1.webp" type="image/webp">
+                    <source srcset="images/projects/construction-drawings/Website_Image_Template_0000_1.jpg" type="image/jpeg">
+                    <img src="images/projects/construction-drawings/Website_Image_Template_0000_1.jpg" alt="construction drawing">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0001_2.webp" type="image/webp">
+                    <source srcset="images/projects/construction-drawings/Website_Image_Template_0001_2.jpg" type="image/jpeg">
+                    <img src="images/projects/construction-drawings/Website_Image_Template_0001_2.jpg" alt="construction drawing">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0002_3.webp" type="image/webp">
+                    <source srcset="images/projects/construction-drawings/Website_Image_Template_0002_3.jpg" type="image/jpeg">
+                    <img src="images/projects/construction-drawings/Website_Image_Template_0002_3.jpg" alt="construction drawing">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0003_4.webp" type="image/webp">
+                    <source srcset="images/projects/construction-drawings/Website_Image_Template_0003_4.jpg" type="image/jpeg">
+                    <img src="images/projects/construction-drawings/Website_Image_Template_0003_4.jpg" alt="construction drawing">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0004_5.webp" type="image/webp">
+                    <source srcset="images/projects/construction-drawings/Website_Image_Template_0004_5.jpg" type="image/jpeg">
+                    <img src="images/projects/construction-drawings/Website_Image_Template_0004_5.jpg" alt="construction drawing">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0005_6.webp" type="image/webp">
+                    <source srcset="images/projects/construction-drawings/Website_Image_Template_0005_6.jpg" type="image/jpeg">
+                    <img src="images/projects/construction-drawings/Website_Image_Template_0005_6.jpg" alt="construction drawing">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0006_7.webp" type="image/webp">
+                    <source srcset="images/projects/construction-drawings/Website_Image_Template_0006_7.jpg" type="image/jpeg">
+                    <img src="images/projects/construction-drawings/Website_Image_Template_0006_7.jpg" alt="construction drawing">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0007_8.webp" type="image/webp">
+                    <source srcset="images/projects/construction-drawings/Website_Image_Template_0007_8.jpg" type="image/jpeg">
+                    <img src="images/projects/construction-drawings/Website_Image_Template_0007_8.jpg" alt="construction drawing">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0008_9.webp" type="image/webp">
+                    <source srcset="images/projects/construction-drawings/Website_Image_Template_0008_9.jpg" type="image/jpeg">
+                    <img src="images/projects/construction-drawings/Website_Image_Template_0008_9.jpg" alt="construction drawing">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0009_10.webp" type="image/webp">
+                    <source srcset="images/projects/construction-drawings/Website_Image_Template_0009_10.jpg" type="image/jpeg">
+                    <img src="images/projects/construction-drawings/Website_Image_Template_0009_10.jpg" alt="construction drawing">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0010_11.webp" type="image/webp">
+                    <source srcset="images/projects/construction-drawings/Website_Image_Template_0010_11.jpg" type="image/jpeg">
+                    <img src="images/projects/construction-drawings/Website_Image_Template_0010_11.jpg" alt="construction drawing">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0011_12.webp" type="image/webp">
+                    <source srcset="images/projects/construction-drawings/Website_Image_Template_0011_12.jpg" type="image/jpeg">
+                    <img src="images/projects/construction-drawings/Website_Image_Template_0011_12.jpg" alt="construction drawing">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0012_13.webp" type="image/webp">
+                    <source srcset="images/projects/construction-drawings/Website_Image_Template_0012_13.jpg" type="image/jpeg">
+                    <img src="images/projects/construction-drawings/Website_Image_Template_0012_13.jpg" alt="construction drawing">
+                </picture>
+
+                <picture>
+                    <source srcset="images/projects/construction-drawings/webp/Website_Image_Template_0013_14.webp" type="image/webp">
+                    <source srcset="images/projects/construction-drawings/Website_Image_Template_0013_14.jpg" type="image/jpeg">
+                    <img src="images/projects/construction-drawings/Website_Image_Template_0013_14.jpg" alt="construction drawing">
+                </picture>
+
+            </section>
+
+        </main>
+
+
+        <!-- FOOTER -->
+        <footer>
+            <p class="logo">beckett</p>
+            
+            <!-- BOTTOM NAV -->
+            <nav class="bottom-nav">
+
+                <div class="copyright">
+                    <p>© Monica Beckett <script>document.write(new Date().getFullYear())</script></p>
+                </div>
+                
+                <ul class="bottom-nav-link">
+                    <li>
+                        <a href="mailto:monicajanebeckett@gmail.com" target="_blank" rel="noopener noreferrer">email</a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/monicajanebeckett/" target="_blank" rel="noopener noreferrer">instagram</a>
+                    </li>
+                </ul>
+                
+            </nav>
+        </footer>
+
+    </div>
     
 </body>
 </html>
