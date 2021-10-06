@@ -71,14 +71,8 @@ flex-direction: column;
 justify-content: space-between;
 }
 
-.loader{
-    background: #000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+
+
 
 
 /* HEADER */
@@ -154,7 +148,7 @@ footer .logo{
     } */
 
     .logo{
-        font-size: 12rem;
+        font-size: 14rem;
         letter-spacing: -0.25rem;
     }
 
@@ -181,7 +175,7 @@ footer .logo{
     } */
 
     .logo{
-        font-size: 18rem;
+        font-size: 24rem;
         letter-spacing: -0.4rem;
     }
 
