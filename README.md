@@ -35,3 +35,6 @@
 - Added new about image
 - added page fade in loader
 
+# Oct 05, 2021
+- removed on page load 'Loader' from all pages
+- increased size of main logotype on home page
