@@ -38,3 +38,6 @@
 # Oct 05, 2021
 - removed on page load 'Loader' from all pages
 - increased size of main logotype on home page
+
+# Nov 29, 2021
+- Updated portrait photos on about page
